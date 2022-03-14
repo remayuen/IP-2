@@ -1,0 +1,30 @@
+/*  HEADING SECTION  */
+.heading1 {
+  padding-bottom: 30px;
+}
+
+/*  MIDDLE SECTION */
+img {
+  width: 500px;
+  height: 600px;
+}
+
+p {
+  line-height: 40px;
+}
+
+.section1{
+  padding-bottom: 50px;
+}
+
+/* BELOW SECTION */
+.img2 {
+  height: 500px;
+  width: 500px;
+  border-radius: 100%;
+}
+
+form {
+  width: 300px;
+  padding-top:50px;
+}
