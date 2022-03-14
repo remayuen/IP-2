@@ -1,23 +1,50 @@
+body{
+  background-color: #FFEBBC;
+}
+
+
 /*  HEADING SECTION  */
 .heading1 {
+  margin: auto;
+  padding-top: 20px;
   padding-bottom: 30px;
+  font-family: 'Abril Fatface', cursive;
 }
 
 /*  MIDDLE SECTION */
+
+.description{
+  background-color: #CC9544;
+  padding: 30px 30px;
+}
+
 img {
   width: 500px;
   height: 600px;
 }
 
 p {
+  font-family: 'Lato', sans-serif;
   line-height: 40px;
+font-weight:bold;
 }
 
-.section1{
-  padding-bottom: 50px;
+section {
+  padding-bottom: 60px;
 }
 
 /* BELOW SECTION */
+
+.section2{
+  background-color: #F3BC77;
+}
+
+h3{
+  font-family: 'Abril Fatface', cursive;
+  text-decoration: underline;
+}
+
+
 .img2 {
   height: 500px;
   width: 500px;
@@ -26,5 +53,34 @@ p {
 
 form {
   width: 300px;
-  padding-top:50px;
+  padding-top: 50px;
+}
+
+.akanNamesFinder {
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.results {
+  padding-top: 20px;
+  font-size: 1.5rem;
+}
+
+
+  /*  BOTTOMEST */
+
+  h4{
+    font-family: 'Abril Fatface', cursive;
+
+  }
+
+
+footer{
+  background-color: #040303;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px 15px;
 }
