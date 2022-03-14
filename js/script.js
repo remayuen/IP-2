@@ -41,11 +41,11 @@ function callDayOfWeek() {
 
   if (dob !== "" && male === true) {
 
-    document.querySelector(".results").innerHTML = "Wow! you were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + maleNames[d] + "!";
+    document.querySelector(".results").innerHTML = "You were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + maleNames[d] + "!";
 
   } else if (dob !== "" && female === true) {
 
-    document.querySelector(".results").innerHTML = "Wow! you were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + femaleNames[d] + "!";
+    document.querySelector(".results").innerHTML = "You were born on a  " + daysOfTheWeek[d] + ", your Akan name is " + femaleNames[d] + "!";
   } else {
     document.querySelector(".results").innerHTML = "Please fill in all the details";
   }
